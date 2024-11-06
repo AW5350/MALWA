@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Home - Malwa Mini Market</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for mobile devices */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .floating {
+                position: relative;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+            }
+            .logo-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .logo {
+                width: 100px;
+                height: auto;
+            }
+            .hero-content {
+                text-align: center;
+            }
+            .hero-title {
+                font-size: 24px;
+            }
+            .features {
+                display: flex;
+                flex-direction: column;
+            }
+            .feature {
+                margin-bottom: 20px;
+            }
+            .feature img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="floating">
+            <div class="logo-container">
+                <img src="logo3.png" alt="Malwa Mini Market Logo" class="logo">
+                <h1>Malwa Mini Market</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">Chi Siamo</a></li>
+                    <li><a href="products.html">Prodotti</a></li>
+                    <li><a href="location.html">Posizione</a></li>
+                    <li><a href="contact.html">Contattaci</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Il Miglior Market Indiano in Italia</h2>
+                <p>Scopri prodotti freschi, autentici e di alta qualità dal nostro market.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <img src="verdure.jpg" alt="Vegetables">
+                <h3>Verdure Fresche</h3>
+                <p>Un'ampia selezione di verdure fresche, direttamente dalla nostra terra.</p>
+            </div>
+            <div class="feature">
+                <img src="spezie.jpg" alt="Indian Spices">
+                <h3>Spezie Indiane</h3>
+                <p>Esplora la varietà delle spezie autentiche che portano l'India nei tuoi piatti.</p>
+            </div>
+            <div class="feature">
+                <img src="bevande.jpg" alt="Soft Drinks">
+                <h3>Bevande</h3>
+                <p>Rinfrescati con le nostre bevande tradizionali e popolari in India.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Malwa Mini Market | Tutti i diritti riservati</p>
+        </footer>
+    </div>
+</body>
+</html>
