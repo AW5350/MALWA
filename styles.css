@@ -17,6 +17,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(135deg, var(--bg-color) 0%, #c3cfe2 100%);
     color: var(--text-color);
+    margin: 0;
 }
 
 .container {
@@ -201,22 +202,11 @@ footer {
     .features {
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }
 
     .feature {
-        width: 80%;
-        margin-bottom: 20px;
-        text-align: center; /* Center the text for better alignment */
-    }
-
-    .feature h3 {
-        font-size: 1.5rem; /* Adjust the font size for mobile */
-        margin-bottom: 10px;
-    }
-
-    .feature p {
-        font-size: 1rem; /* Adjust paragraph font size */
-        line-height: 1.5; /* Improve line height for readability */
+        width: 90%;
     }
 
     header nav ul {
@@ -234,7 +224,7 @@ footer {
     }
 
     .product-card {
-        width: 80%;
+        width: 90%;
     }
 
     .map-container {
@@ -361,30 +351,17 @@ footer {
 .contact h2 {
     font-size: 2.5rem;
     color: var(--primary-color);
-    margin-bottom: 20px;
-}
-
-.contact p {
-    font-size: 1.2rem;
     margin-bottom: 30px;
-    color: var(--text-color);
-}
-
-.contact-content {
-    display: flex;
-    gap: 30px;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .contact-info {
     width: 40%;
+    margin-bottom: 20px;
 }
 
 .contact-info p {
     font-size: 1.1rem;
     color: var(--text-color);
-    margin-bottom: 20px;
 }
 
 .contact-form {
@@ -416,42 +393,3 @@ footer {
     background-color: var(--accent-color);
 }
 
-/* Location Page */
-.location {
-    padding: 40px 0;
-    text-align: center;
-}
-
-.location h2 {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-}
-
-.location-info {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-.location-info-item {
-    width: 30%;
-    text-align: center;
-}
-
-.location-info-item i {
-    font-size: 3rem;
-    color: var(--primary-color);
-    margin-bottom: 15px;
-}
-
-.location-info-item p {
-    font-size: 1.2rem;
-    color: var(--text-color);
-}
-
-.map-container {
-    margin-top: 30px;
-    height: 400px;
-    width: 100%;
-}
