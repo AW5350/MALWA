@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Prodotti - Malwa Mini Market</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for mobile devices */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .logo-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .logo {
+                width: 100px;
+                height: auto;
+            }
+            .product-grid {
+                display: flex;
+                flex-direction: column;
+            }
+            .product-card {
+                margin-bottom: 20px;
+            }
+            .product-card img {
+                width: 100%;
+                height: auto;
+            }
+            /* Adjustments for better mobile view */
+            .product-card h3 {
+                font-size: 18px; /* Adjusted font size for better readability */
+            }
+            .product-card p {
+                font-size: 14px; /* Adjusted font size for better readability */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="logo3.png" alt="Malwa Mini Market Logo" class="logo">
+                <h1>Malwa Mini Market</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Chi Siamo</a></li>
+                    <li><a href="products.html" class="active">Prodotti</a></li>
+                    <li><a href="location.html">Indirizzo</a></li>
+                    <li><a href="contact.html">Contattaci</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="products">
+            <h2>I Nostri Prodotti</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="verdure.jpg" alt="Verdure Fresche">
+                    <h3>Verdure Fresche</h3>
+                    <p>Scopri la nostra selezione di verdure fresche.</p>
+                </div>
+                <div class="product-card">
+                    <img src="spezie.jpg" alt="Spezie Indiane">
+                    <h3>Spezie Indiane</h3>
+                    <p>Spezie tradizionali e autentiche per i tuoi piatti.</p>
+                </div>
+                <div class="product-card">
+                    <img src="bevande.jpg" alt="Bevande">
+                    <h3>Bevande</h3>
+                    <p>Rinfrescati con le nostre bevande indiane.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Malwa Mini Market | Tutti i diritti riservati</p>
+        </footer>
+    </div>
+</body>
+</html>
